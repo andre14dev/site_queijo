@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Finalizar Compra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Resumo da Compra</h2>
+  
+  <!-- Atualizado para uma tabela -->
+  <table id="resumo">
+    <thead>
+      <tr>
+        <th>Produto</th>
+        <th>Preço</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Os itens serão inseridos aqui pelo script -->
+    </tbody>
+    <tfoot>
+      <tr>
+        <td><strong>Total</strong></td>
+        <td id="total"><strong>R$ 0,00</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <label for="nome">Digite seu nome:</label>
+  <input type="text" id="nome" placeholder="Seu nome" />
+
+  <button onclick="enviarWhatsApp()">Enviar via WhatsApp</button>
+
+  <script>
+    const itens = JSON.parse(localStorage.getItem('itensSelecionados')) || [];
+    const resumoDiv = document.getElementById('resumo');
+    let total = 0;
+
+    // Atualizando o código para preencher a tabela
+    itens.forEach(item => {
+      const preco = parseFloat(item.preco);
+      total += preco;
+
+      const linha = document.createElement('tr');
+      linha.innerHTML = `<td>${item.nome}</td><td>R$ ${preco.toFixed(2).replace('.', ',')}</td>`;
+      resumoDiv.querySelector('tbody').appendChild(linha);
+    });
+
+    // Atualizando o total na tabela
+    document.getElementById('total').innerHTML = `<strong>R$ ${total.toFixed(2).replace('.', ',')}</strong>`;
+
+    function enviarWhatsApp() {
+      const nome = document.getElementById('nome').value;
+      if (!nome) {
+        alert('Digite seu nome');
+        return;
+      }
+
+      // Criando a lista de produtos com preços
+      const lista = itens.map(i => `* ${i.nome} - R$ ${parseFloat(i.preco).toFixed(2).replace('.', ',')}`).join('\n');
+      const mensagem = encodeURIComponent(`Olá, meu nome é ${nome}.\nGostaria de comprar:\n${lista}\n\nTotal: R$ ${total.toFixed(2).replace('.', ',')}`);
+      const numero = '5537999913425';
+      const url = `https://wa.me/${numero}?text=${mensagem}`;
+
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>

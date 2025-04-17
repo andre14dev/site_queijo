@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nome": "Doce de Leite",
+    "categoria": "doce",
+    "descricao": "Caseiro cromoso",
+    "preco": "R$ 10,00"
+  },
+  {
+    "id": 2,
+    "nome": "Geleia de Morango",
+    "categoria": "geleia",
+    "descricao": "Geleia artesanal de morango",
+    "preco": "R$ 15,00"
+  },
+  {
+    "id": 3,
+    "nome": "Queijo Meia Cura 500g",
+    "categoria": "queijo-meia-cura",
+    "descricao": "Queijo curado artesanal meia cura",
+    "preco": "R$ 35,00"
+  },
+  {
+    "id": 4,
+    "nome": "Queijo Fresco 500g",
+    "categoria": "queijo-fresco",
+    "descricao": "Queijo fresco tradicional de minas",
+    "preco": "R$ 30,00"
+  },
+  {
+    "id": 5,
+    "nome": "Café Torrado Moído 250g",
+    "categoria": "cafe",
+    "descricao": "Café artesanal da roça, moído na hora",
+    "preco": "R$ 20,00"
+  },
+  {
+    "id": 6,
+    "nome": "Carne Seca",
+    "categoria": "outros",
+    "descricao": "Carne de lata",
+    "preco": "R$ 25,00"
+  }
+]
