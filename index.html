@@ -1,33 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Produtos de Minas</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Produtos</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Catálogo de Produtos</h1>
 
-  <h1>Delicias de Hoje</h1>
+  <div id="produtos"></div>
 
-  <div id="filtro">
-    <label for="categoria">Filtrar por categoria:</label>
-    <select id="categoria">
-      <option value="todos">Todos</option>
-      <option value="doce">Doces</option>
-      <option value="queijo-meia-cura">Queijos Meia Cura</option>
-      <option value="queijo-fresco">Queijos Frescos</option>
-      <option value="geleia">Geleias</option>
-      <option value="cafe">Cafés</option>
-      <option value="outros">Outros</option>      
-    </select>
+  <div id="nome-section">
+    <h2>Finalizar Pedido</h2>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+    <button onclick="finalizarPedido()">Finalizar Pedido</button>
   </div>
-
-  <div id="produtos">
-    <!-- Os produtos serão carregados aqui dinamicamente -->
-  </div>
-
-  <button onclick="irParaFinalizacao()">Finalizar compras</button>
 
   <script src="script.js"></script>
 </body>
