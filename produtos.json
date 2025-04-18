@@ -1,73 +1,555 @@
 [
   {
     "id": 1,
-    "nome": "Doce de Leite",
-    "categoria": "doce",
-    "descricao": "Caseiro cremoso",
-    "preco": "R$ 10,00"
+    "nome": "QUEIJO CREMOSINHO",
+    "categoria": "Queijo Fresco",
+    "descricao": "Queijo Cremosinho artesanal da Canastra, textura macia e sabor suave.",
+    "preco": 43.00
   },
   {
     "id": 2,
-    "nome": "Geleia de Morango",
-    "categoria": "geleia",
-    "descricao": "Geleia artesanal de morango",
-    "preco": "R$ 15,00"
+    "nome": "REQUEIJÃO DE RASPA",
+    "categoria": "Queijo Fresco",
+    "descricao": "Requeijão cremoso de raspa, típico da Canastra.",
+    "preco": 43.00
   },
   {
     "id": 3,
-    "nome": "Queijo Minas Frescal",
-    "categoria": "queijo",
-    "descricao": "Queijo fresco direto da fazenda",
-    "preco": "R$ 25,00"
+    "nome": "QUEIJO FRESCAL LIGHT",
+    "categoria": "Queijo Fresco",
+    "descricao": "Queijo Frescal Light artesanal, versão com redução de gordura.",
+    "preco": 43.00
   },
   {
     "id": 4,
-    "nome": "Requeijão Caseiro",
-    "categoria": "queijo",
-    "descricao": "Requeijão pastoso artesanal",
-    "preco": "R$ 12,00"
+    "nome": "MANTEIGA CANASTRA",
+    "categoria": "Outros",
+    "descricao": "Manteiga artesanal da Canastra, feita com leite puro.",
+    "preco": 43.00
   },
   {
     "id": 5,
-    "nome": "Pão de Queijo Congelado",
-    "categoria": "padaria",
-    "descricao": "Pacote com 20 unidades",
-    "preco": "R$ 18,00"
+    "nome": "QUEIJO PROVOLONE RECHEADO",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo Provolone recheado, sabor intenso e textura firme.",
+    "preco": 43.00
   },
   {
     "id": 6,
-    "nome": "Goiabada Cascão",
-    "categoria": "doce",
-    "descricao": "Tradicional goiabada artesanal",
-    "preco": "R$ 14,00",
-    "arquivo": "6.pdf"
+    "nome": "QUEIJO CALIFORNIA",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo California, variedade suave e cremosa.",
+    "preco": 43.00
   },
   {
     "id": 7,
-    "nome": "Geleia de Jabuticaba",
-    "categoria": "geleia",
-    "descricao": "Feita com fruta colhida no sítio",
-    "preco": "R$ 16,00"
+    "nome": "QUEIJO TRUFADO COM REQUEIJÃO",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo trufado com recheio de requeijão, sabor sofisticado.",
+    "preco": 43.00
   },
   {
     "id": 8,
-    "nome": "Queijo Meia Cura",
-    "categoria": "queijo",
-    "descricao": "Sabor forte e textura firme",
-    "preco": "R$ 28,00"
+    "nome": "QUEIJO TRUFADO COM BACON",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo trufado com pedaços de bacon, sabor defumado.",
+    "preco": 43.00
   },
   {
     "id": 9,
-    "nome": "Bolo de Fubá",
-    "categoria": "padaria",
-    "descricao": "Fofinho e feito com fubá de moinho",
-    "preco": "R$ 20,00"
+    "nome": "QUEIJO TRUFADO COM AZEITONA",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo trufado com azeitonas, combinação salgada e aromática.",
+    "preco": 43.00
   },
   {
     "id": 10,
-    "nome": "Doce de Abóbora",
-    "categoria": "doce",
-    "descricao": "Com coco ralado natural",
-    "preco": "R$ 11,00"
+    "nome": "QUEIJO TRUFADO TEMPERADO",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo trufado com temperos especiais da Canastra.",
+    "preco": 43.00
+  },
+  {
+    "id": 11,
+    "nome": "QUEIJO MUSSARELA PALITO TEMPERADO",
+    "categoria": "Queijo Fresco",
+    "descricao": "Palitos de mussarela temperados, ideal para petiscos.",
+    "preco": 43.00
+  },
+  {
+    "id": 12,
+    "nome": "PALITO MUSSARELA PURO",
+    "categoria": "Queijo Fresco",
+    "descricao": "Palitos de mussarela pura, sem adição de temperos.",
+    "preco": 43.00
+  },
+  {
+    "id": 13,
+    "nome": "QUEIJO MUSSARELA TRANÇA CASCAVEL",
+    "categoria": "Queijo Fresco",
+    "descricao": "Mussarela em formato de trança, versão cascavel.",
+    "preco": 43.00
+  },
+  {
+    "id": 14,
+    "nome": "QUEIJO MUSSARELA TRANÇA CASCAVEL DEFUMADA",
+    "categoria": "Queijo Curado",
+    "descricao": "Trança de mussarela defumada, sabor marcante.",
+    "preco": 43.00
+  },
+  {
+    "id": 15,
+    "nome": "QUEIJO MUSSARELA TRANÇA CASCAVEL COM TOMATE SECO",
+    "categoria": "Queijo Curado",
+    "descricao": "Trança de mussarela com tomate seco, combinação mediterrânea.",
+    "preco": 43.00
+  },
+  {
+    "id": 16,
+    "nome": "TRANCA DEFUMADA",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo em trança defumado, sabor intenso.",
+    "preco": 43.00
+  },
+  {
+    "id": 17,
+    "nome": "TRANCA DEFUMADA TEMPERADA",
+    "categoria": "Queijo Curado",
+    "descricao": "Trança defumada com temperos especiais.",
+    "preco": 43.00
+  },
+  {
+    "id": 18,
+    "nome": "TRANCA BRANCA",
+    "categoria": "Queijo Fresco",
+    "descricao": "Trança de queijo branco, textura macia.",
+    "preco": 43.00
+  },
+  {
+    "id": 19,
+    "nome": "TRANCA BRANCA TEMPERADA",
+    "categoria": "Queijo Fresco",
+    "descricao": "Trança de queijo branco com temperos.",
+    "preco": 43.00
+  },
+  {
+    "id": 20,
+    "nome": "TRANCA TEMPERADA COM TOMATE SECO",
+    "categoria": "Queijo Curado",
+    "descricao": "Trança de queijo com tomate seco e ervas.",
+    "preco": 43.00
+  },
+  {
+    "id": 21,
+    "nome": "QUEIJO REINO",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo Reino, variedade tradicional da Canastra.",
+    "preco": 43.00
+  },
+  {
+    "id": 22,
+    "nome": "QUEIJO REINO BOLA",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo Reino em formato de bola, maturado.",
+    "preco": 43.00
+  },
+  {
+    "id": 23,
+    "nome": "QUEIJO ROCKFOR",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo Rockfor, sabor forte e textura cremosa.",
+    "preco": 43.00
+  },
+  {
+    "id": 24,
+    "nome": "QUEIJO PARMESÃO",
+    "categoria": "Queijo Curado",
+    "descricao": "Parmesão artesanal, ideal para ralar.",
+    "preco": 43.00
+  },
+  {
+    "id": 25,
+    "nome": "QUEIJO PARMESÃO CAPA PRETA",
+    "categoria": "Queijo Curado",
+    "descricao": "Parmesão com capa preta, maturação prolongada.",
+    "preco": 43.00
+  },
+  {
+    "id": 26,
+    "nome": "PARMESÃO GOUDA CUNHA",
+    "categoria": "Queijo Curado",
+    "descricao": "Mescla de Parmesão e Gouda, sabor único.",
+    "preco": 43.00
+  },
+  {
+    "id": 27,
+    "nome": "QUEIJO PARMESÃO URUGUAIO",
+    "categoria": "Queijo Curado",
+    "descricao": "Parmesão estilo uruguaio, textura firme.",
+    "preco": 43.00
+  },
+  {
+    "id": 28,
+    "nome": "QUEIJO PRATO",
+    "categoria": "Queijo Fresco",
+    "descricao": "Queijo Prato, versátil e de sabor suave.",
+    "preco": 43.00
+  },
+  {
+    "id": 29,
+    "nome": "KIT ECLIPSE",
+    "categoria": "Outros",
+    "descricao": "Kit com seleção de queijos (categoria incerta - verificar).",
+    "preco": 43.00
+  },
+  {
+    "id": 30,
+    "nome": "KIT 4 QUEIJOS (ROCKFORT, PARMESÃO, CAPA PRETA, REINO)",
+    "categoria": "Queijo Curado",
+    "descricao": "Kit com 4 variedades de queijos curados.",
+    "preco": 43.00
+  },
+  {
+    "id": 31,
+    "nome": "KIT PROVOLETO",
+    "categoria": "Queijo Curado",
+    "descricao": "Kit de Provolone, sabor marcante.",
+    "preco": 43.00
+  },
+  {
+    "id": 32,
+    "nome": "KIT TRANÇA",
+    "categoria": "Queijo Fresco",
+    "descricao": "Kit com trança de mussarela.",
+    "preco": 43.00
+  },
+  {
+    "id": 33,
+    "nome": "ISCA DE PALITO TEMPERADO",
+    "categoria": "Queijo Fresco",
+    "descricao": "Iscas de palito de queijo temperadas.",
+    "preco": 43.00
+  },
+  {
+    "id": 34,
+    "nome": "NOZINHO DEFUMADO",
+    "categoria": "Queijo Curado",
+    "descricao": "Nozinhos de queijo defumados.",
+    "preco": 43.00
+  },
+  {
+    "id": 35,
+    "nome": "NOZINHO GOUDA",
+    "categoria": "Queijo Curado",
+    "descricao": "Nozinhos de queijo tipo Gouda.",
+    "preco": 43.00
+  },
+  {
+    "id": 36,
+    "nome": "NOZINHO TEMPERADO",
+    "categoria": "Queijo Curado",
+    "descricao": "Nozinhos de queijo com temperos.",
+    "preco": 43.00
+  },
+  {
+    "id": 37,
+    "nome": "NOZINHO PURO",
+    "categoria": "Queijo Fresco",
+    "descricao": "Nozinhos de mussarela pura.",
+    "preco": 43.00
+  },
+  {
+    "id": 38,
+    "nome": "PROVOLONE DESIDRATADO COM NUTELLA",
+    "categoria": "Queijo Curado",
+    "descricao": "Provolone desidratado com recheio de Nutella.",
+    "preco": 43.00
+  },
+  {
+    "id": 39,
+    "nome": "PROVOLONE DESIDRATADO TEMPERADO",
+    "categoria": "Queijo Curado",
+    "descricao": "Provolone desidratado com temperos.",
+    "preco": 43.00
+  },
+  {
+    "id": 40,
+    "nome": "PROVOLONE DESIDRATADO COM GOIABADA",
+    "categoria": "Queijo Curado",
+    "descricao": "Provolone desidratado com goiabada.",
+    "preco": 43.00
+  },
+  {
+    "id": 41,
+    "nome": "PROVOLONE DESIDRATADO GOUDA",
+    "categoria": "Queijo Curado",
+    "descricao": "Provolone desidratado estilo Gouda.",
+    "preco": 43.00
+  },
+  {
+    "id": 42,
+    "nome": "QUEIJO CANASTRA",
+    "categoria": "Queijo Curado",
+    "descricao": "Queijo Canastra tradicional, sabor intenso.",
+    "preco": 43.00
+  },
+  {
+    "id": 43,
+    "nome": "CARNE NA LATA 900G",
+    "categoria": "Outros",
+    "descricao": "Carne enlatada pronta para consumo.",
+    "preco": 43.00
+  },
+  {
+    "id": 44,
+    "nome": "GELEIA DE MOCOTÓ [CHOCOLATE]",
+    "categoria": "Geleia",
+    "descricao": "Geleia de mocotó com chocolate.",
+    "preco": 43.00
+  },
+  {
+    "id": 45,
+    "nome": "GELEIA DE MOCOTÓ PURA 400G",
+    "categoria": "Geleia",
+    "descricao": "Geleia de mocotó pura.",
+    "preco": 43.00
+  },
+  {
+    "id": 46,
+    "nome": "DOCE EM PEDAÇO [CAFÉ]",
+    "categoria": "Doce",
+    "descricao": "Doce em pedaços sabor café.",
+    "preco": 43.00
+  },
+  {
+    "id": 47,
+    "nome": "DOCE EM PEDAÇO [LIMÃO]",
+    "categoria": "Doce",
+    "descricao": "Doce em pedaços sabor limão.",
+    "preco": 43.00
+  },
+  {
+    "id": 48,
+    "nome": "DOCE EM PEDAÇO [COCO]",
+    "categoria": "Doce",
+    "descricao": "Doce em pedaços sabor coco.",
+    "preco": 43.00
+  },
+  {
+    "id": 49,
+    "nome": "DOCE EM PEDAÇO [NOZES]",
+    "categoria": "Doce",
+    "descricao": "Doce em pedaços com nozes.",
+    "preco": 43.00
+  },
+  {
+    "id": 50,
+    "nome": "DOCE DE LEITE COM CHOCOLATE",
+    "categoria": "Doce de Leite",
+    "descricao": "Doce de leite cremoso com chocolate.",
+    "preco": 43.00
+  },
+  {
+    "id": 51,
+    "nome": "DOCE DE LEITE COM COCO",
+    "categoria": "Doce de Leite",
+    "descricao": "Doce de leite com coco ralado.",
+    "preco": 43.00
+  },
+  {
+    "id": 52,
+    "nome": "DOCE DE LEITE EM SACHE",
+    "categoria": "Doce de Leite",
+    "descricao": "Doce de leite cremoso em sachê.",
+    "preco": 43.00
+  },
+  {
+    "id": 53,
+    "nome": "DOCE DE LEITE COM CAFÉ",
+    "categoria": "Doce de Leite",
+    "descricao": "Doce de leite com sabor de café.",
+    "preco": 43.00
+  },
+  {
+    "id": 54,
+    "nome": "DOCE DE LEITE TRADICIONAL",
+    "categoria": "Doce de Leite",
+    "descricao": "Doce de leite tradicional cremoso.",
+    "preco": 43.00
+  },
+  {
+    "id": 55,
+    "nome": "DOCE DE LEITE ROCCA [COCO]",
+    "categoria": "Doce de Leite",
+    "descricao": "Doce de leite Rocca com coco.",
+    "preco": 43.00
+  },
+  {
+    "id": 56,
+    "nome": "DOCE DE LEITE ROCCA",
+    "categoria": "Doce de Leite",
+    "descricao": "Doce de leite Rocca tradicional.",
+    "preco": 43.00
+  },
+  {
+    "id": 57,
+    "nome": "DOCE DE LEITE ROCCA [AVELA]",
+    "categoria": "Doce de Leite",
+    "descricao": "Doce de leite Rocca com avelã.",
+    "preco": 43.00
+  },
+  {
+    "id": 58,
+    "nome": "COCADA CREMOSA BRANCA",
+    "categoria": "Doce",
+    "descricao": "Cocada cremosa branca tradicional.",
+    "preco": 43.00
+  },
+  {
+    "id": 59,
+    "nome": "COCADA CREMOSA BRANCA NA LATA",
+    "categoria": "Doce",
+    "descricao": "Cocada cremosa branca em lata.",
+    "preco": 43.00
+  },
+  {
+    "id": 60,
+    "nome": "DOCE DE LEITE TRADICIONAL NA LATA",
+    "categoria": "Doce de Leite",
+    "descricao": "Doce de leite tradicional em lata.",
+    "preco": 43.00
+  },
+  {
+    "id": 61,
+    "nome": "MEL PEDAÇO COM FAVO 700G",
+    "categoria": "Outros",
+    "descricao": "Mel puro com pedaços de favo.",
+    "preco": 43.00
+  },
+  {
+    "id": 62,
+    "nome": "MEL PURO 700G",
+    "categoria": "Outros",
+    "descricao": "Mel puro artesanal.",
+    "preco": 43.00
+  },
+  {
+    "id": 63,
+    "nome": "PROPOLIS",
+    "categoria": "Outros",
+    "descricao": "Extrato de própolis natural.",
+    "preco": 43.00
+  },
+  {
+    "id": 64,
+    "nome": "GELEIA DE PIMENTA PURA",
+    "categoria": "Geleia",
+    "descricao": "Geleia de pimenta pura, sabor picante.",
+    "preco": 43.00
+  },
+  {
+    "id": 65,
+    "nome": "GELEIA DE PIMENTA COM MOSTARDA",
+    "categoria": "Geleia",
+    "descricao": "Geleia de pimenta com mostarda.",
+    "preco": 43.00
+  },
+  {
+    "id": 66,
+    "nome": "GELEIA DE PIMENTA COM JABUTICABA",
+    "categoria": "Geleia",
+    "descricao": "Geleia de pimenta com jabuticaba.",
+    "preco": 43.00
+  },
+  {
+    "id": 67,
+    "nome": "GELEIA DE PIMENTA COM MEL",
+    "categoria": "Geleia",
+    "descricao": "Geleia de pimenta com mel.",
+    "preco": 43.00
+  },
+  {
+    "id": 68,
+    "nome": "GELEIA DE PIMENTA DEFUMADA",
+    "categoria": "Geleia",
+    "descricao": "Geleia de pimenta defumada.",
+    "preco": 43.00
+  },
+  {
+    "id": 69,
+    "nome": "GELEIA DE PIMENTA COM ALHO CARAMELIZADO",
+    "categoria": "Geleia",
+    "descricao": "Geleia de pimenta com alho caramelizado.",
+    "preco": 43.00
+  },
+  {
+    "id": 70,
+    "nome": "GELEIA DE PIMENTA COM DAMASCO",
+    "categoria": "Geleia",
+    "descricao": "Geleia de pimenta com damasco.",
+    "preco": 43.00
+  },
+  {
+    "id": 71,
+    "nome": "GELEIA MOSTARDA E MARACUJÁ",
+    "categoria": "Geleia",
+    "descricao": "Geleia de mostarda com maracujá.",
+    "preco": 43.00
+  },
+  {
+    "id": 72,
+    "nome": "GOIABADA",
+    "categoria": "Doce",
+    "descricao": "Goiabada tradicional em barra.",
+    "preco": 43.00
+  },
+  {
+    "id": 73,
+    "nome": "GOIABADA DE POTE",
+    "categoria": "Doce",
+    "descricao": "Goiabada cremosa em pote.",
+    "preco": 43.00
+  },
+  {
+    "id": 74,
+    "nome": "GOIABADA ESTACAO MINAS",
+    "categoria": "Doce",
+    "descricao": "Goiabada artesanal da Estação Minas.",
+    "preco": 43.00
+  },
+  {
+    "id": 75,
+    "nome": "GOIABADA ESTACAO MINAS NA CAIXA 1 KG",
+    "categoria": "Doce",
+    "descricao": "Goiabada em caixa de 1 kg.",
+    "preco": 43.00
+  },
+  {
+    "id": 76,
+    "nome": "GOIABADA LATA ESTACAO MINAS 500G",
+    "categoria": "Doce",
+    "descricao": "Goiabada em lata de 500g.",
+    "preco": 43.00
+  },
+  {
+    "id": 77,
+    "nome": "TORRESMO CAIPIRA",
+    "categoria": "Outros",
+    "descricao": "Torresmo caipira crocante.",
+    "preco": 43.00
+  },
+  {
+    "id": 78,
+    "nome": "SALAMINHO ITALIANO",
+    "categoria": "Outros",
+    "descricao": "Salame italiano artesanal.",
+    "preco": 43.00
+  },
+  {
+    "id": 79,
+    "nome": "VINAGRETE DE PIMENTA",
+    "categoria": "Outros",
+    "descricao": "Vinagrete de pimenta para acompanhamentos.",
+    "preco": 43.00
   }
 ]
