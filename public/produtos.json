@@ -1,625 +1,590 @@
 [
   {
-    "id": 1,
-    "nome": "Queijo Minas Frescal",
-    "descricao": "Tradicional queijo mineiro, fresco e suave",
-    "preco": 12.50,
+    "id": 2,
+    "nome": "Queijo Cremosinho",
+    "descricao": "Tradicional queijo mineiro, ideal para tomar um bom café da manhã",
+    "preco": 39.00,
     "categoria": "Queijo Fresco"
   },
   {
-    "id": 2,
-    "nome": "Queijo Prato",
-    "descricao": "Queijo amarelo de sabor suave e textura macia",
-    "preco": 18.90,
-    "categoria": "Queijo Curado"
-  },
-  {
     "id": 3,
-    "nome": "Queijo Canastra",
-    "descricao": "Típico da Serra da Canastra, sabor intenso",
-    "preco": 35.00,
+    "nome": "Requeijão De Raspa",
+    "descricao": "Requeijão cremoso ao ponto de corte, feito com as raspinhas do queijo",
+    "preco": 31.00,
     "categoria": "Queijo Curado"
   },
   {
     "id": 4,
-    "nome": "Requeijão Cremoso",
-    "descricao": "Cremoso e delicioso, perfeito para pães",
-    "preco": 9.90,
+    "nome": "Queijo Fresco Light",
+    "descricao": "Cremoso e suave, ideal para dieta e um lanche mais fit",
+    "preco": 37.00,
     "categoria": "Queijo Fresco"
   },
   {
     "id": 5,
-    "nome": "Queijo Coalho",
-    "descricao": "Ideal para grelhar, típico do Nordeste",
-    "preco": 14.75,
-    "categoria": "Queijo Fresco"
-  },
-  {
-    "id": 6,
-    "nome": "Queijo Brie",
-    "descricao": "Queijo francês de casca branca e cremoso",
-    "preco": 42.50,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 7,
-    "nome": "Queijo Gorgonzola",
-    "descricao": "Italiano com veias azuis, sabor marcante",
-    "preco": 48.90,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 8,
-    "nome": "Queijo Parmesão",
-    "descricao": "Duro e granuloso, perfeito para ralar",
-    "preco": 55.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 9,
-    "nome": "Queijo Provolone",
-    "descricao": "Italiano defumado, sabor característico",
-    "preco": 38.75,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 10,
-    "nome": "Queijo Cottage",
-    "descricao": "Baixo teor de gordura, rico em proteínas",
-    "preco": 11.90,
-    "categoria": "Queijo Fresco"
-  },
-  {
-    "id": 11,
-    "nome": "Queijo Ricota",
-    "descricao": "Leve e cremoso, ideal para massas",
-    "preco": 10.50,
-    "categoria": "Queijo Fresco"
-  },
-  {
-    "id": 12,
-    "nome": "Queijo Manteiga",
-    "descricao": "Consistência cremosa e sabor suave",
-    "preco": 16.80,
-    "categoria": "Queijo Fresco"
-  },
-  {
-    "id": 13,
-    "nome": "Queijo Meia Cura",
-    "descricao": "Intermediário entre fresco e curado",
-    "preco": 22.50,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 14,
-    "nome": "Queijo Gruyère",
-    "descricao": "Suíço de sabor complexo e aromático",
-    "preco": 65.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 15,
-    "nome": "Queijo Emmental",
-    "descricao": "Clássico suíço com buracos característicos",
-    "preco": 60.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 16,
-    "nome": "Geleia de Pimenta",
-    "descricao": "Levemente picante, perfeita para queijos",
-    "preco": 14.90,
-    "categoria": "Geleia"
-  },
-  {
-    "id": 17,
-    "nome": "Geleia de Figo",
-    "descricao": "Doce e aromática, combina com queijos fortes",
-    "preco": 12.50,
-    "categoria": "Geleia"
-  },
-  {
-    "id": 18,
-    "nome": "Doce de Leite Cremoso",
-    "descricao": "Tradicional doce gaúcho",
-    "preco": 19.90,
-    "categoria": "Doce"
-  },
-  {
-    "id": 19,
-    "nome": "Queijo Camembert",
-    "descricao": "Francês de casca branca e interior cremoso",
-    "preco": 45.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 20,
-    "nome": "Queijo Pecorino",
-    "descricao": "Italiano de leite de ovelha, sabor intenso",
-    "preco": 58.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 21,
-    "nome": "Queijo Roquefort",
-    "descricao": "Francês com veias azuis, sabor forte",
-    "preco": 72.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 22,
-    "nome": "Queijo Cheddar",
-    "descricao": "Inglês, varia do suave ao extra maduro",
-    "preco": 28.90,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 23,
-    "nome": "Queijo Mussarela",
-    "descricao": "Derrete facilmente, ideal para pizzas",
-    "preco": 21.50,
-    "categoria": "Queijo Fresco"
-  },
-  {
-    "id": 24,
-    "nome": "Queijo Minas Padrão",
-    "descricao": "Versão mais seca do queijo minas",
-    "preco": 15.75,
-    "categoria": "Queijo Fresco"
-  },
-  {
-    "id": 25,
-    "nome": "Queijo Colônia",
-    "descricao": "Produzido no sistema colonial",
-    "preco": 17.90,
-    "categoria": "Queijo Fresco"
-  },
-  {
-    "id": 26,
-    "nome": "Queijo Serrano",
-    "descricao": "Típico da região sul, de leite cru",
-    "preco": 32.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 27,
-    "nome": "Queijo Cabacinha",
-    "descricao": "Pequeno e delicado, formato característico",
-    "preco": 19.50,
-    "categoria": "Queijo Fresco"
-  },
-  {
-    "id": 28,
-    "nome": "Queijo Quartirolo",
-    "descricao": "Italiano de massa semicozida",
-    "preco": 41.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 29,
-    "nome": "Queijo Fontina",
-    "descricao": "Italiano de leite de vaca, derrete facilmente",
-    "preco": 53.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 30,
-    "nome": "Queijo Taleggio",
-    "descricao": "Italiano de casca lavada, sabor marcante",
-    "preco": 47.50,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 31,
-    "nome": "Queijo Manchego",
-    "descricao": "Espanhol de leite de ovelha",
-    "preco": 62.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 32,
-    "nome": "Queijo Idiazábal",
-    "descricao": "Espanhol defumado com madeira",
-    "preco": 68.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 33,
-    "nome": "Queijo Cotija",
-    "descricao": "Mexicano, salgado e granular",
-    "preco": 39.90,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 34,
-    "nome": "Queijo Panela",
-    "descricao": "Mexicano fresco, textura úmida",
+    "nome": "Manteiga 250g",
+    "descricao": "Manteiga ideal para uma torrada",
     "preco": 22.00,
     "categoria": "Queijo Fresco"
   },
   {
+    "id": 6,
+    "nome": "Queijo Provolone Recheado",
+    "descricao": "Queijo ideal para quem gosta de petiscar",
+    "preco": 42.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 7,
+    "nome": "Queijo California",
+    "descricao": "Queijo macio com sabor suave, ótimo para café ou lanche",
+    "preco": 48.90,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 9,
+    "nome": "Queijo Trufado com Requeijão",
+    "descricao": "Queijo tipo da região de Capitólio, muçarela cremosa com requeijão de corte",
+    "preco": 38.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 10,
+    "nome": "Queijo Trufado com Bacon",
+    "descricao": "Queijo tipo da região de Capitólio, muçarela cremosa com bacon",
+    "preco": 38.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 11,
+    "nome": "Queijo Trufado com Azeitona",
+    "descricao": "Queijo tipo da região de Capitólio, muçarela cremosa com azeitona",
+    "preco": 38.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 12,
+    "nome": "Queijo Trufado com tempero",
+    "descricao": "Queijo tipo da região de Capitólio, muçarela cremosa com temperos (chimichurri)",
+    "preco": 38.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 13,
+    "nome": "Queijo Palito Temp.",
+    "descricao": "Queijo ideal para petiscar e comer naquele almoço de domingo",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 14,
+    "nome": "Queijo Palito",
+    "descricao": "Queijo ideal para tomar um cafezinho e comer naquele café da tarde",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 15,
+    "nome": "Queijo Trança Cascavel",
+    "descricao": "Queijo trançado artesanal, leve e saboroso - ideal para lanches ou petiscos",
+    "preco": 36.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 16,
+    "nome": "Queijo Trança Cascavel Defumada",
+    "descricao": "Queijo trançado artesanal defumado, leve e saboroso - ideal para lanches ou petiscos",
+    "preco": 36.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 17,
+    "nome": "Queijo Trança Cascavel Com Tomate seco",
+    "descricao": "Queijo trançado artesanal com tomate seco, leve e saboroso - ideal para lanches ou petiscos",
+    "preco": 36.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 18,
+    "nome": "Queijo Trança Defumada",
+    "descricao": "Queijo trançado, gostoso e suculento, ideal tanto para café quanto para petiscar",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 19,
+    "nome": "Queijo Trança Defumada temperada",
+    "descricao": "Queijo trançado, gostoso e suculento, ideal tanto para café quanto para petiscar",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 20,
+    "nome": "Queijo Trança",
+    "descricao": "Queijo trançado, gostoso e suculento, ideal tanto para café quanto para petiscar",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 21,
+    "nome": "Queijo Trança temperada",
+    "descricao": "Queijo trançado, gostoso e suculento, ideal tanto para café quanto para petiscar",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 22,
+    "nome": "Queijo Trança com tomate seco",
+    "descricao": "Queijo trançado, gostoso e suculento, ideal tanto para café quanto para petiscar",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 23,
+    "nome": "Queijo Reino",
+    "descricao": "Queijo curado de sabor forte e marcante, lembra parmesão e é ótimo para petiscar ou acompanhar vinho",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 24,
+    "nome": "Queijo Reino Bola",
+    "descricao": "Queijo curado de sabor forte e marcante, com uma peculiaridade de ser em formato diferente, bom para tábua de frios, lembra parmesão e é ótimo para petiscar ou acompanhar vinho",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 25,
+    "nome": "Queijo Roquefort",
+    "descricao": "Queijo de sabor suave e salgado, lembra levemente gorgonzola e combina com pães, mel e vinhos Docess",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 27,
+    "nome": "Queijo Parmesão Fresco Cunha",
+    "descricao": "Mais suave que o parmesão curado, tem sabor leve e textura macia - ideal para o dia a dia, lembra uma muçarela mais saborosa",
+    "preco": 35.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 28,
+    "nome": "Queijo Parmesão Capa Preta",
+    "descricao": "Queijo fresco, leve e bem macio, com sabor suave - perfeito para café da manhã ou lanche",
+    "preco": 36.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 29,
+    "nome": "Queijo Parmesão Capa Preta Cunha",
+    "descricao": "Queijo fresco, leve e bem macio, com sabor suave - perfeito para café da manhã ou lanche",
+    "preco": 40.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 30,
+    "nome": "Queijo Gouda Cunha",
+    "descricao": "Queijo curado, sabor marcante e casca rústica - ótimo para petiscar ou acompanhar um bom vinho",
+    "preco": 40.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 31,
+    "nome": "Queijo Parmesão Capa Preta",
+    "descricao": "Queijo fresco, leve e bem macio, com sabor suave - perfeito para café da manhã ou lanche",
+    "preco": 40.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 32,
+    "nome": "Queijo Prato",
+    "descricao": "Queijo de sabor suave e derretimento fácil - ideal para sanduíches, lanches e receitas do dia a dia",
+    "preco": 34.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 33,
+    "nome": "Kit Eclipse",
+    "descricao": "Mistura do Roquefort com parmesão fresco - sabor marcante na medida certa, ideal para quem gosta de ousar",
+    "preco": 36.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
+    "id": 34,
+    "nome": "Queijo 4 Queijos (Napolitano)",
+    "descricao": "Kit com 4 sabores artesanais: Roquefort, parmesão fresco, capa preta e Reino - perfeito para tábuas e presentear",
+    "preco": 38.00,
+    "categoria": "Queijo Fresco"
+  },
+  {
     "id": 35,
-    "nome": "Queijo Oaxaca",
-    "descricao": "Mexicano de fios, similar à mussarela",
-    "preco": 27.50,
+    "nome": "Kit 2 provolones e Reino",
+    "descricao": "Kit com 3 queijos recheados com salame - Provolones defumados e temperados junto com um Reino e prontos para impressionar no petisco",
+    "preco": 36.00,
     "categoria": "Queijo Fresco"
   },
   {
     "id": 36,
-    "nome": "Queijo Feta",
-    "descricao": "Grego de leite de ovelha, salgado",
-    "preco": 31.00,
+    "nome": "Kit Provoleto",
+    "descricao": "Kit com 2 queijos provolones (defumado e temperado) + 1 salaminho e um Reino - combinação perfeita para petiscar",
+    "preco": 36.00,
     "categoria": "Queijo Fresco"
   },
   {
     "id": 37,
-    "nome": "Queijo Halloumi",
-    "descricao": "Cipriota que pode ser grelhado",
-    "preco": 43.00,
+    "nome": "Kit Trança",
+    "descricao": "Quatro tranças de queijo muçarela em versões artesanais: natural, defumada, com ervas e curtida no vinho.",
+    "preco": 36.00,
     "categoria": "Queijo Fresco"
   },
   {
     "id": 38,
-    "nome": "Queijo Kasseri",
-    "descricao": "Grego semiduro, sabor picante",
-    "preco": 46.00,
-    "categoria": "Queijo Curado"
+    "nome": "Isca de Palito Temperado",
+    "descricao": "Iscas de queijo palito temperado, ideais para petiscar",
+    "preco": 36.00,
+    "categoria": "Queijo Fresco"
   },
   {
     "id": 39,
-    "nome": "Queijo Kashkaval",
-    "descricao": "Bálcãs, similar ao provolone",
-    "preco": 44.00,
-    "categoria": "Queijo Curado"
+    "nome": "Nozinho Defumado",
+    "descricao": "Pequenos nozinhos de queijo artesanal, com sabor defumado delicado e textura macia, ideal para petiscos",
+    "preco": 32.00,
+    "categoria": "Queijo Fresco"
   },
   {
     "id": 40,
-    "nome": "Queijo Edam",
-    "descricao": "Holandês em formato de bola",
-    "preco": 37.00,
-    "categoria": "Queijo Curado"
+    "nome": "Nozinho Gouda",
+    "descricao": "Pequenos nozinhos de queijo Gouda artesanal, com sabor suave e amanteigado, textura cremosa e toque levemente adocicado",
+    "preco": 34.00,
+    "categoria": "Queijo Fresco"
   },
   {
     "id": 41,
-    "nome": "Queijo Gouda",
-    "descricao": "Holandês, varia de jovem a envelhecido",
-    "preco": 34.00,
-    "categoria": "Queijo Curado"
+    "nome": "Nozinho Temperado",
+    "descricao": "Pequenos nozinhos de queijo artesanal, temperados com ervas finas e especiarias, trazendo sabor marcante e aroma fresco",
+    "preco": 32.00,
+    "categoria": "Queijo Fresco"
   },
   {
     "id": 42,
-    "nome": "Queijo Leyden",
-    "descricao": "Holandês com cominho",
-    "preco": 39.00,
-    "categoria": "Queijo Curado"
+    "nome": "Nozinho Puro",
+    "descricao": "Pequenos nozinhos de queijo muçarela artesanal, sabor suave e leite fresco, perfeito para quem aprecia o tradicional",
+    "preco": 32.00,
+    "categoria": "Queijo Fresco"
   },
   {
     "id": 43,
-    "nome": "Queijo Maasdam",
-    "descricao": "Holandês com grandes buracos",
-    "preco": 42.00,
-    "categoria": "Queijo Curado"
+    "nome": "Provolone Desidratado com Nutella",
+    "descricao": "Chips crocantes de queijo provolone artesanal, com um contraste surpreendente do Doces cremoso da Nutella",
+    "preco": 28.00,
+    "categoria": "Outros"
   },
   {
     "id": 44,
-    "nome": "Queijo Appenzeller",
-    "descricao": "Suíço com ervas, sabor picante",
-    "preco": 67.00,
-    "categoria": "Queijo Curado"
+    "nome": "Provolone Desidratado Temperado",
+    "descricao": "Chips crocantes de provolone artesanal, temperados com ervas e especiarias para um sabor marcante.",
+    "preco": 20.00,
+    "categoria": "Outros"
   },
   {
     "id": 45,
-    "nome": "Queijo Tête de Moine",
-    "descricao": "Suíço servido em rosetas",
-    "preco": 75.00,
-    "categoria": "Queijo Curado"
+    "nome": "Provolone Desidratado com Goiabada",
+    "descricao": "Chips crocantes de provolone artesanal servidos com goiabada, união perfeita do salgado com o Doces",
+    "preco": 28.00,
+    "categoria": "Outros"
   },
   {
     "id": 46,
-    "nome": "Queijo Vacherin",
-    "descricao": "Suíço cremoso de casca lavada",
-    "preco": 82.00,
-    "categoria": "Queijo Curado"
+    "nome": "Gouda Desidratado",
+    "descricao": "Chips finos de queijo Gouda artesanal, com sabor suave e textura crocante",
+    "preco": 20.00,
+    "categoria": "Outros"
   },
   {
     "id": 47,
-    "nome": "Queijo Raclette",
-    "descricao": "Derretido tradicionalmente sobre batatas",
-    "preco": 59.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 48,
-    "nome": "Queijo Morbier",
-    "descricao": "Francês com linha de cinza no meio",
-    "preco": 64.00,
+    "nome": "Queijo Canastra Meia cura",
+    "descricao": "Clássico da Canastra, sabor marcante e textura macia, ideal para derreter",
+    "preco": 50.00,
     "categoria": "Queijo Curado"
   },
   {
     "id": 49,
-    "nome": "Queijo Comté",
-    "descricao": "Francês de leite cru, envelhecido",
-    "preco": 70.00,
-    "categoria": "Queijo Curado"
+    "nome": "Carne de lata Cara",
+    "descricao": "Carne suína confitada na gordura, tradição mineira em sabor intenso",
+    "preco": 64.00,
+    "categoria": "Outros"
   },
   {
     "id": 50,
-    "nome": "Queijo Beaufort",
-    "descricao": "Francês da região da Savóia",
-    "preco": 85.00,
-    "categoria": "Queijo Curado"
+    "nome": "Geleia de mocotó da Canastra /com Amendoim",
+    "descricao": "Receita caseira com amendoim, textura cremosa e sabor de infância",
+    "preco": 22.00,
+    "categoria": "Doces"
   },
   {
     "id": 51,
-    "nome": "Queijo Cantal",
-    "descricao": "Francês um dos mais antigos",
-    "preco": 58.00,
-    "categoria": "Queijo Curado"
+    "nome": "Geleia de mocotó da Canastra /com Chocolate",
+    "descricao": "Clássica geleia de mocotó com toque Doces e cremoso de chocolate",
+    "preco": 22.00,
+    "categoria": "Doces"
   },
   {
     "id": 52,
-    "nome": "Queijo Livarot",
-    "descricao": "Francês de casca lavada, aroma forte",
-    "preco": 72.00,
-    "categoria": "Queijo Curado"
+    "nome": "Geleia de mocotó da Canastra",
+    "descricao": "Tradicional geleia de mocotó artesanal, sabor puro e textura leve",
+    "preco": 22.00,
+    "categoria": "Doces"
   },
   {
     "id": 53,
-    "nome": "Queijo Pont-l'Évêque",
-    "descricao": "Francês quadrado, sabor picante",
+    "nome": "Doces de Leite em Cubos /Café",
+    "descricao": "Doces de leite em cubos com sabor de café",
     "preco": 65.00,
-    "categoria": "Queijo Curado"
+    "categoria": "Doces"
   },
   {
     "id": 54,
-    "nome": "Queijo Munster",
-    "descricao": "Francês de casca laranja, aroma intenso",
+    "nome": "Doces de Leite em Cubos /Limão",
+    "descricao": "Doces de leite em cubos com sabor de limão",
     "preco": 68.00,
-    "categoria": "Queijo Curado"
+    "categoria": "Doces"
   },
   {
     "id": 55,
-    "nome": "Queijo Stilton",
-    "descricao": "Inglês azul, um dos mais famosos",
+    "nome": "Doces de Leite em Cubos /Tradicional",
+    "descricao": "Doces de leite em cubos tradicional",
     "preco": 79.00,
-    "categoria": "Queijo Curado"
+    "categoria": "Doces"
   },
   {
     "id": 56,
-    "nome": "Queijo Red Leicester",
-    "descricao": "Inglês de cor laranja",
+    "nome": "Doces de Leite em Cubos /Coco",
+    "descricao": "Doces de leite em cubos com sabor de coco",
     "preco": 47.00,
-    "categoria": "Queijo Curado"
+    "categoria": "Doces"
   },
   {
     "id": 57,
-    "nome": "Queijo Wensleydale",
-    "descricao": "Inglês com cranberries",
+    "nome": "Doces de Leite em Cubos /Nozes",
+    "descricao": "Doces de leite em cubos com nozes",
     "preco": 52.00,
-    "categoria": "Queijo Curado"
+    "categoria": "Doces"
   },
   {
     "id": 58,
-    "nome": "Queijo Cheshire",
-    "descricao": "Inglês um dos mais antigos",
+    "nome": "Doces de Leite com Chocolate Souvenir",
+    "descricao": "Doces de leite cremoso com chocolate",
     "preco": 49.00,
-    "categoria": "Queijo Curado"
+    "categoria": "Doces"
   },
   {
     "id": 59,
-    "nome": "Queijo Caerphilly",
-    "descricao": "Galês de sabor suave",
-    "preco": 44.00,
-    "categoria": "Queijo Curado"
-  },
-  {
-    "id": 60,
-    "nome": "Queijo Monterey Jack",
-    "descricao": "Americano semissólido",
-    "preco": 32.00,
-    "categoria": "Queijo Curado"
+    "nome": "Doces de Leite com Coco Souvenir",
+    "descricao": "Doces de leite cremoso com coco",
+    "preco": 49.00,
+    "categoria": "Doces"
   },
   {
     "id": 61,
-    "nome": "Queijo Pepper Jack",
-    "descricao": "Monterey Jack com pimentas",
-    "preco": 35.00,
-    "categoria": "Queijo Curado"
+    "nome": "Doces de Leite Com Café Estação de minas",
+    "descricao": "Doces de leite com sabor de café",
+    "preco": 30.00,
+    "categoria": "Doces"
   },
   {
     "id": 62,
-    "nome": "Queijo Colby",
-    "descricao": "Americano similar ao cheddar",
-    "preco": 29.00,
-    "categoria": "Queijo Curado"
+    "nome": "Doces de Leite Tradicional Estação de minas",
+    "descricao": "Doces de leite tradicional",
+    "preco": 30.00,
+    "categoria": "Doces"
   },
   {
     "id": 63,
-    "nome": "Queijo Brick",
-    "descricao": "Americano de massa cozida",
-    "preco": 31.00,
-    "categoria": "Queijo Curado"
+    "nome": "Doces de Leite Com Coco Rocca",
+    "descricao": "Doces de leite com coco",
+    "preco": 30.00,
+    "categoria": "Doces"
   },
   {
     "id": 64,
-    "nome": "Queijo Muenster",
-    "descricao": "Americano estilo Munster",
-    "preco": 27.00,
-    "categoria": "Queijo Curado"
+    "nome": "Doces de Leite Rocca",
+    "descricao": "Doces de leite tradicional",
+    "preco": 30.00,
+    "categoria": "Doces"
   },
   {
     "id": 65,
-    "nome": "Queijo Havarti",
-    "descricao": "Dinamarquês cremoso",
-    "preco": 38.00,
-    "categoria": "Queijo Curado"
+    "nome": "Doces de Leite Com avelã Rocca",
+    "descricao": "Doces de leite com avelã",
+    "preco": 30.00,
+    "categoria": "Doces"
   },
   {
     "id": 66,
-    "nome": "Queijo Danablu",
-    "descricao": "Dinamarquês azul",
-    "preco": 51.00,
-    "categoria": "Queijo Curado"
+    "nome": "Doces de Leite Com Coco Estação de minas",
+    "descricao": "Doces de leite com coco",
+    "preco": 30.00,
+    "categoria": "Doces"
   },
   {
     "id": 67,
-    "nome": "Queijo Esrom",
-    "descricao": "Dinamarquês semiduro",
-    "preco": 43.00,
-    "categoria": "Queijo Curado"
+    "nome": "Cocada Cremosa Tradicional Estação de minas 680g",
+    "descricao": "Cocada cremosa tradicional",
+    "preco": 30.00,
+    "categoria": "Doces"
   },
   {
     "id": 68,
-    "nome": "Queijo Jarlsberg",
-    "descricao": "Norueguês com buracos grandes",
-    "preco": 46.00,
-    "categoria": "Queijo Curado"
+    "nome": "Cocada Cremosa Tradicional Estação de minas 400g",
+    "descricao": "Cocada cremosa tradicional",
+    "preco": 25.00,
+    "categoria": "Doces"
   },
   {
     "id": 69,
-    "nome": "Queijo Gamalost",
-    "descricao": "Norueguês de sabor forte",
-    "preco": 54.00,
-    "categoria": "Queijo Curado"
+    "nome": "Doces de Leite Tradicional Estação de minas 400g",
+    "descricao": "Doces de leite tradicional",
+    "preco": 25.00,
+    "categoria": "Doces"
   },
   {
     "id": 70,
-    "nome": "Queijo Pultost",
-    "descricao": "Norueguês cremoso e picante",
-    "preco": 49.00,
-    "categoria": "Queijo Curado"
+    "nome": "Mel com Favo 700g",
+    "descricao": "Mel puro com favo",
+    "preco": 40.00,
+    "categoria": "Doces"
   },
   {
     "id": 71,
-    "nome": "Queijo Brunost",
-    "descricao": "Norueguês marrom, doce",
-    "preco": 57.00,
-    "categoria": "Queijo Curado"
+    "nome": "Mel sem favo 700g",
+    "descricao": "Mel puro sem favo",
+    "preco": 40.00,
+    "categoria": "Doces"
   },
   {
     "id": 72,
-    "nome": "Queijo Herrgårdsost",
-    "descricao": "Sueco semiduro",
-    "preco": 42.00,
-    "categoria": "Queijo Curado"
+    "nome": "Extrato De Prólis 30ml",
+    "descricao": "Extrato de própolis puro",
+    "preco": 30.00,
+    "categoria": "Doces"
   },
   {
     "id": 73,
-    "nome": "Queijo Västerbottensost",
-    "descricao": "Sueco de sabor intenso",
-    "preco": 89.00,
-    "categoria": "Queijo Curado"
+    "nome": "Geleia de Pimenta Minas canastra",
+    "descricao": "Geleia de pimenta artesanal",
+    "preco": 20.00,
+    "categoria": "Outros"
   },
   {
     "id": 74,
-    "nome": "Queijo Prästost",
-    "descricao": "Sueco tradicional",
-    "preco": 47.00,
-    "categoria": "Queijo Curado"
+    "nome": "Geleia de Pimenta Com mostarda Minas canastra",
+    "descricao": "Geleia de pimenta com mostarda artesanal",
+    "preco": 20.00,
+    "categoria": "Outros"
   },
   {
     "id": 75,
-    "nome": "Queijo Grevé",
-    "descricao": "Sueco similar ao Emmental",
-    "preco": 44.00,
-    "categoria": "Queijo Curado"
+    "nome": "Geleia de Pimenta Com Jabuicabica Minas canastra",
+    "descricao": "Geleia de pimenta com jabuticaba artesanal",
+    "preco": 20.00,
+    "categoria": "Outros"
   },
   {
     "id": 76,
-    "nome": "Queijo Samsø",
-    "descricao": "Dinamarquês de leite de vaca",
-    "preco": 39.00,
-    "categoria": "Queijo Curado"
+    "nome": "Geleia de Pimenta Com Mel Minas canastra",
+    "descricao": "Geleia de pimenta com mel artesanal",
+    "preco": 20.00,
+    "categoria": "Outros"
   },
   {
     "id": 77,
-    "nome": "Queijo Maribo",
-    "descricao": "Dinamarquês semiduro",
-    "preco": 36.00,
-    "categoria": "Queijo Curado"
+    "nome": "Chutney de Pimenta Minas canastra",
+    "descricao": "Chutney de pimenta artesanal",
+    "preco": 20.00,
+    "categoria": "Outros"
   },
   {
     "id": 78,
-    "nome": "Queijo Molbo",
-    "descricao": "Dinamarquês de massa lavada",
-    "preco": 41.00,
-    "categoria": "Queijo Curado"
+    "nome": "Geleia de Pimenta Com alho Caramelizado Minas canastra",
+    "descricao": "Geleia de pimenta com alho caramelizado artesanal",
+    "preco": 20.00,
+    "categoria": "Outros"
   },
   {
     "id": 79,
-    "nome": "Queijo Fynbo",
-    "descricao": "Dinamarquês de ilha de Fyn",
-    "preco": 38.00,
-    "categoria": "Queijo Curado"
+    "nome": "Geleia de Pimenta Com Damasco Minas canastra",
+    "descricao": "Geleia de pimenta com damasco artesanal",
+    "preco": 20.00,
+    "categoria": "Outros"
   },
   {
     "id": 80,
-    "nome": "Queijo Tybo",
-    "descricao": "Dinamarquês de formato quadrado",
-    "preco": 35.00,
-    "categoria": "Queijo Curado"
+    "nome": "Geleia de Pimenta Com ostarda e Maracuja Minas canastra",
+    "descricao": "Geleia de pimenta com mostarda e maracujá artesanal",
+    "preco": 20.00,
+    "categoria": "Outros"
   },
   {
     "id": 81,
-    "nome": "Queijo Elbo",
-    "descricao": "Dinamarquês de leite pasteurizado",
-    "preco": 33.00,
-    "categoria": "Queijo Curado"
+    "nome": "Goiabada padrão 0,500g",
+    "descricao": "Goiabada tradicional",
+    "preco": 15.00,
+    "categoria": "Doces"
   },
   {
     "id": 82,
-    "nome": "Queijo Dofino",
-    "descricao": "Cremoso estilo norueguês",
-    "preco": 29.00,
-    "categoria": "Queijo Curado"
+    "nome": "Goiabada Pote ",
+    "descricao": "Goiabada tradicional em pote",
+    "preco": 15.00,
+    "categoria": "Doces"
   },
   {
     "id": 83,
-    "nome": "Queijo Castelo Branco",
-    "descricao": "Português de leite de ovelha",
-    "preco": 45.00,
-    "categoria": "Queijo Curado"
+    "nome": "Goiabada Lisa Estação de Minas 500g",
+    "descricao": "Goiabada lisa tradicional",
+    "preco": 15.00,
+    "categoria": "Doces"
   },
   {
     "id": 84,
-    "nome": "Queijo Serra da Estrela",
-    "descricao": "Português cremoso DOP",
-    "preco": 62.00,
-    "categoria": "Queijo Curado"
+    "nome": "Goiabada Cascão Estação de Minas 500g",
+    "descricao": "Goiabada com casca",
+    "preco": 15.00,
+    "categoria": "Doces"
   },
   {
     "id": 85,
-    "nome": "Queijo Azeitão",
-    "descricao": "Português de leite de ovelha",
-    "preco": 58.00,
-    "categoria": "Queijo Curado"
+    "nome": "Goiabada Lisa Caixa Estação de Minas 500g",
+    "descricao": "Goiabada lisa tradicional em caixa",
+    "preco": 20.00,
+    "categoria": "Doces"
   },
   {
     "id": 86,
-    "nome": "Queijo São Jorge",
-    "descricao": "Português de ilha, sabor forte",
-    "preco": 49.00,
-    "categoria": "Queijo Curado"
+    "nome": "Goiabada Lisa Estação de Minas 400g",
+    "descricao": "Goiabada lisa tradicional",
+    "preco": 15.00,
+    "categoria": "Doces"
   },
   {
     "id": 87,
-    "nome": "Queijo Évora",
-    "descricao": "Português de leite de ovelha",
+    "nome": "Torresmo caipira",
+    "descricao": "Torresmo caipira crocante",
     "preco": 53.00,
-    "categoria": "Queijo Curado"
+    "categoria": "Outros"
   },
   {
     "id": 88,
-    "nome": "Queijo Nisa",
-    "descricao": "Português DOP de leite cru",
+    "nome": "Salaminho Italiano",
+    "descricao": "Salaminho italiano artesanal",
     "preco": 47.00,
-    "categoria": "Queijo Curado"
+    "categoria": "Outros"
   },
   {
     "id": 89,
-    "nome": "Queijo Serpa",
-    "descricao": "Português amanteigado",
+    "nome": "Vinagrete de pimemta",
+    "descricao": "Vinagrete de pimenta artesanal",
     "preco": 55.00,
-    "categoria": "Queijo Curado"
+    "categoria": "Outros"
   }
 ]

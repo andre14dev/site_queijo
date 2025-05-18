@@ -6,7 +6,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
       >
-        ← Anterior
+        Pagina Anterior
       </button>
       <span className="pagina-info">
         Página {currentPage} de {totalPages}
@@ -16,7 +16,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
       >
-        Próxima →
+        Próxima Pagina
       </button>
     </div>
   );

@@ -25,11 +25,35 @@ const ProductsPage = ({ order, setOrder }) => {
     loadProducts();
   }, []);
 
-  const filteredProducts = order.categories.includes('todos')
+  const customCategoryOrder = [
+    'Queijo Fresco', 
+    'Queijo Curado', 
+    'Doce', 
+    'Geleia', 
+    'Outros'
+  ];
+
+  const filteredProducts = order.categories.includes('Todos')
     ? [...products]
     : products.filter(p => order.categories.includes(p.categoria));
 
-  filteredProducts.sort((a, b) => a.categoria.localeCompare(b.categoria));
+  // Aplicar ordenação personalizada
+  filteredProducts.sort((a, b) => {
+    const indexA = customCategoryOrder.indexOf(a.categoria);
+    const indexB = customCategoryOrder.indexOf(b.categoria);
+    
+    // Se ambas categorias estiverem na lista ordenada, compare pelos índices
+    if (indexA !== -1 && indexB !== -1) {
+      return indexA - indexB;
+    }
+    
+    // Se apenas uma estiver na lista, ela vem primeiro
+    if (indexA !== -1) return -1;
+    if (indexB !== -1) return 1;
+    
+    // Se nenhuma estiver na lista, mantenha a ordem original
+    return 0;
+  });
 
   const totalPages = Math.max(1, Math.ceil(filteredProducts.length / productsPerPage));
 
@@ -89,9 +113,9 @@ const ProductsPage = ({ order, setOrder }) => {
   return (
     <div className="container">
       <header>
-        <button className="btn-seta" onClick={() => navigate('/')}>← Voltar</button>
+        <button className="btn-seta" onClick={() => navigate('/')}>Voltar</button>
         <h1>
-          {order.categories.includes('todos') 
+          {order.categories.includes('Todos') 
             ? 'Todos os Produtos' 
             : order.categories.join(' + ')}
         </h1>
@@ -127,7 +151,7 @@ const ProductsPage = ({ order, setOrder }) => {
 
       <div className="acoes">
         <button className="btn-primario" onClick={handleFinalize}>
-          Finalizar Pedido →
+          Finalizar Pedido
         </button>
       </div>
     </div>

@@ -32,7 +32,7 @@ const OrderPage = ({ order }) => {
   return (
     <div className="container">
       <header>
-        <button className="btn-seta" onClick={() => navigate('/produtos')}>← Voltar</button>
+        <button className="btn-seta" onClick={() => navigate('/produtos')}>Voltar</button>
         <h1>Resumo do Pedido</h1>
         <div className="cliente-info">
           <p><strong>Cliente:</strong> {order.name || 'Não informado'}</p> {/* Exibição do nome aqui */}

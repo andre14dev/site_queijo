@@ -3,17 +3,17 @@ import { useNavigate } from 'react-router-dom'
 import FilterButton from '../components/FilterButton'
 
 const HomePage = ({ order, setOrder }) => {
-  const [categories] = useState(['todos', 'Queijo Fresco', 'Queijo Curado', 'Doce', 'Geleia', 'Outros'])
+  const [categories] = useState(['Todos', 'Queijo Fresco', 'Queijo Curado', 'Doces', 'Geleia', 'Outros'])
   const [selectedCategories, setSelectedCategories] = useState([])
   const navigate = useNavigate()
 
   const handleFilterClick = (category) => {
-    if (category === 'todos') {
-      setSelectedCategories(['todos']);
+    if (category === 'Todos') {
+      setSelectedCategories(['Todos']);
     } else {
       const newCategories = selectedCategories.includes(category)
         ? selectedCategories.filter(c => c !== category)
-        : [...selectedCategories.filter(c => c !== 'todos'), category];
+        : [...selectedCategories.filter(c => c !== 'Todos'), category];
       
       setSelectedCategories(newCategories.slice(0, 2)); // Limita a 2 categorias
     }
@@ -33,8 +33,8 @@ const HomePage = ({ order, setOrder }) => {
 
     setOrder({
       ...order,
-      categories: selectedCategories.includes('todos') 
-        ? ['todos'] 
+      categories: selectedCategories.includes('Todos') 
+        ? ['Todos'] 
         : selectedCategories,
       items: []
     })
@@ -72,7 +72,7 @@ const HomePage = ({ order, setOrder }) => {
         </div>
 
         <button className="btn-primario" onClick={handleContinue}>
-          Ver Produtos →
+          Ver Produtos
         </button>
       </div>
     </div>
